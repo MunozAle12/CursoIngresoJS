@@ -14,10 +14,13 @@ function Mostrar()
 	{
 		resultado = primerNumero * segundoNumero;
 	}
-	else(primerNumero>segundoNumero)
+	else
 	{
+		if(primerNumero>segundoNumero)
+		{
 		resultado = primerNumero - segundoNumero;
-		if
+		}
+		else
 		{
 			resultado = primerNumero + segundoNumero;
 		}
