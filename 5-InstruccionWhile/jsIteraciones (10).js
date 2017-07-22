@@ -134,7 +134,7 @@ function Mostrar()
 
 	while(respuesta!='no')
 	{	
-		//Valido sexo:
+		//Valido sexo.
 		sexo = prompt("Indique su sexo. Ingrese 'f' para femenino o 'm' para masculino.");
 		while(sexo!="f" && sexo!="m")
 		{
@@ -149,7 +149,7 @@ function Mostrar()
 		}
 		edad = parseInt(edad);//Paso la edad a valor numerico.
 
-		//Vaido la altura del votante.
+		//Valido la altura del votante.
 		altura = prompt("Ingrese su altura.");
 		while(altura<0 || altura>3)
 		{
